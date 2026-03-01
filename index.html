@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <div class="wrapper-form">
+            <h1 class="main-title title">Bem vinda, Tais!</h1>
+            
+            <form>
+                <label class="main-text second-title" for="code" id="label-code">Insira seu código:</label>
+                <input class="input-code" type="text" id="code" placeholder="O código possui 7 números" maxlength="7">
+                <a id="btn-enter" class="btn-form" onclick="validator()">Entrar</a>
+            </form>
+        </div>
+
+        <span class="load-circle"></span>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
