@@ -12,7 +12,7 @@ const btnSecond = document.querySelector('.btn-second');
 
 
 function validator() {
-    if (code.value === '1234') {
+    if (code.value === '5194071') {
         console.log('Código correto!');
         wrapperForm.style.display = 'none';
         loadCircle.style.display = 'block';
@@ -57,3 +57,4 @@ function goToFirstPage() {
 
 
 
+// senha alterada
