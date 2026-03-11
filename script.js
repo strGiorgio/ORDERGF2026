@@ -12,19 +12,7 @@ const btnSecond = document.querySelector('.btn-second');
 
 
 function validator() {
-    if (code.value === '5194071') {
-        console.log('Código correto!');
-        wrapperForm.style.display = 'none';
-        loadCircle.style.display = 'block';
-
-        setTimeout(() => {
-            window.location.href = "second-page.html";
-        }, 5000);
-        
-    } else {
-        console.log('Código incorreto. Tente novamente.');
-        labelCode.textContent = 'Incorreto! Tente novamente:';
-    }
+    window.location.href = "second-page.html";
 }
 
 function unlock() {
